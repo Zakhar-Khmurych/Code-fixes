@@ -1,11 +1,10 @@
-int MAX_VALUE = 10;
+#include <stdio.h>
+#include <iostream>
+using namespace std;
 
 int main() {
-    printf("Begin\n");
-
-    for (int i = 0; i < MAX_VALUE; i++) {
-        printf("i: %d\n", i);
-    }
-
-    printf("The end\n");
+	int first_num = 2;
+	int secord_num = 3;
+	int sum = first_num + secord_num;
+	cout << sum;
 }
